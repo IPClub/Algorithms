@@ -2,11 +2,11 @@ package ipc.am.sort;
 
 import java.util.Random;
 
-public class SelectionVSMerge {
+public class InsertionVSMerge {
 
 	static int[] array1;
 	static int[] array2;
-	static int maxSize = 100000;
+	static int maxSize = 200000;
 	public static void main(String[] args) {
 		generateArrays();
 		startSelectionSort();
